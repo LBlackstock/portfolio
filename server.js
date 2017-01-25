@@ -7,8 +7,8 @@ var port = process.env.PORT || 8000;
 app.use(express.static(path.join(__dirname,"./client")));
 app.use(express.static(path.join(__dirname,"./node_modules")));
 
-require("./server/config/mongoose.js");
-require("./server/config/routes.js");
+require("./Server/config/mongoose.js");
+require("./Server/config/routes.js");
 
 //start the server
 app.listen(8000, function(){
