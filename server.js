@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname,"./client")));
 app.use(express.static(path.join(__dirname,"./node_modules")));
 
 // require("./server/config/mongoose.js");
-require("./server/config/routes.js")
+// require("./server/config/routes.js")
 
 //start the server
 app.listen(8000, function(){
